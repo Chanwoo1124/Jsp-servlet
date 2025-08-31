@@ -26,5 +26,6 @@ public class Spag extends HttpServelet{
 		//forward 
 		RequestDispatcher dispatcher = request.getRequestDispatcher("spag.jsp");
 		dispatcher.forward(request, resp);
+		resp.addCookie(null);
 	}
 }
