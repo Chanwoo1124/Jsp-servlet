@@ -20,4 +20,4 @@ if (cnt_ != null && !cnt_.equals("")) {
 	안녕 Servlet!!<br>
 	<%} %>
 </body>
-</html>
+</html> 
